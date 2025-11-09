@@ -171,7 +171,7 @@ It reflects how **AI-driven credit scoring** can reshape financial decision-maki
 - Deploy on **AWS / Heroku** for permanent hosting  
 - Add **real-time dashboard** for loan portfolio monitoring  
 
-> A complete production-ready showcase of Data Science applied to FinTech — balancing business sense, model integrity, and practical usability.
+> A complete production-ready showcase of Data Science applied to FinTech  balancing business sense, model integrity, and practical usability.
 
 ---
 
