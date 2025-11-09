@@ -74,7 +74,7 @@ Each record represents a loan applicant with multiple attributes such as age, jo
 
 
 
-## ⚙️ Model Building & Selection
+##  Model Building & Selection
 
 Initial exploration included Decision Tree and Random Forest models.  
 The final choice was **ExtraTreesClassifier** due to its superior accuracy and interpretability.
@@ -89,7 +89,7 @@ The final choice was **ExtraTreesClassifier** due to its superior accuracy and i
 - Tuned parameters like `n_estimators`, `max_depth`, and `min_samples_split`
 
 
-## 📈 Model Evaluation & Metrics
+##  Model Evaluation & Metrics
 
 | Metric | Value | Interpretation |
 |--------|--------|----------------|
