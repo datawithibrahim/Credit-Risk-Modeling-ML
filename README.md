@@ -9,7 +9,7 @@ The goal was to predict whether a loan applicant is likely to be a **Good Credit
 
 > This project combines financial reasoning with data science blending model interpretability, business logic, and responsible automation.
 
----
+
 
 ## Problem Statement
 
@@ -21,7 +21,7 @@ Can a machine learning model classify an applicant’s credit risk level (good/b
 - ⚖️ Ensure fairness and consistency in decisions  
 - 💡 Lower default rates through smarter, data-backed predictions  
 
----
+
 
 ##  Dataset Description & Features
 
@@ -44,7 +44,7 @@ Each record represents a loan applicant with multiple attributes such as age, jo
 - `1` → Good Credit (Low Risk)  
 - `0` → Bad Credit (High Risk)
 
----
+
 
 ##  Tools, Technologies & Environment
 
@@ -58,7 +58,7 @@ Each record represents a loan applicant with multiple attributes such as age, jo
 | **Deployment** | Streamlit + Ngrok |
 | **Environment** | Google Colab |
 
----
+
 
 ## Data Preprocessing & Feature Engineering
 
@@ -72,7 +72,7 @@ Each record represents a loan applicant with multiple attributes such as age, jo
 **Scaling & Transformation:**  
 - Skipped scaling to maintain interpretability and to leverage ExtraTreesClassifier’s scale-invariance.  
 
----
+
 
 ## ⚙️ Model Building & Selection
 
@@ -88,7 +88,6 @@ The final choice was **ExtraTreesClassifier** due to its superior accuracy and i
 - Used `GridSearchCV` with **5-fold cross-validation**  
 - Tuned parameters like `n_estimators`, `max_depth`, and `min_samples_split`
 
----
 
 ## 📈 Model Evaluation & Metrics
 
@@ -103,7 +102,6 @@ The final choice was **ExtraTreesClassifier** due to its superior accuracy and i
 **Business Outcome:**  
 The model effectively minimized both **false approvals (bad loans)** and **false rejections (good applicants)**, ensuring fair and practical real-world performance.
 
----
 
 ##  Model Saving, Pipeline, and Consistency
 
@@ -112,7 +110,7 @@ The model effectively minimized both **false approvals (bad loans)** and **false
 - Prevented **data transformation drift** between environments  
 - Ensured future integration as a microservice or API is seamless  
 
----
+
 
 ##  Streamlit Application & Deployment
 
@@ -128,7 +126,7 @@ A **Streamlit app** was developed to simulate real-world banking use.
 - Hosted via **Google Colab + Ngrok** for live public demo access  
 - Enabled zero-infrastructure, cloud-based testing  
 
----
+
 
 ##  Real-World Impact
 
@@ -140,9 +138,8 @@ A **Streamlit app** was developed to simulate real-world banking use.
 | **Scalability** | Can process 1,000+ applications/minute |
 | **Profitability** | Lowered default rates and boosted lending efficiency |
 
-> Studies show ML adoption in lending can reduce default rates by up to **40%** and cut onboarding time by **50%**.
+Studies show ML adoption in lending can reduce default rates by up to **40%** and cut onboarding time by **50%**.
 
----
 
 ##  Challenges Faced & Solutions
 
@@ -152,8 +149,6 @@ A **Streamlit app** was developed to simulate real-world banking use.
 | Hyperparameter tuning errors | Debugged GridSearchCV logs carefully |
 | Ngrok authentication issues | Resolved with proper token setup and validation |
 | Data type inconsistencies | Implemented schema validation and clean encoding |
-
----
 
 ##  Learning Outcomes & Insights
 
@@ -165,7 +160,6 @@ A **Streamlit app** was developed to simulate real-world banking use.
 | **Usability** | Streamlit simplifies ML adoption for non-technical users |
 | **Deployment** | Saving full pipelines is critical for live stability |
 
----
 
 ##  Conclusion & Future Scope
 
@@ -181,7 +175,6 @@ It reflects how **AI-driven credit scoring** can reshape financial decision-maki
 
 ---
 
-###  Author
 
 **Ibrahim Shaikh**  
 📍 Data Science & Analyst   
